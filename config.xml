@@ -116,5 +116,6 @@
     </plugin>
     <plugin name="cordova-plugin-qrscanner" spec="^3.0.1" >
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
     </plugin>
 </widget>
