@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "cordova-android": "^7.0.0",
+    "cordova-android-support-gradle-release": "^3.0.1",
     "cordova-ios": "^4.5.3",
     "cordova-plugin-battery-status": "^1.2.5",
     "cordova-plugin-ble-central": "^1.2.4",
@@ -122,6 +123,9 @@
       "cordova-plugin-whitelist": {},
       "phonegap-plugin-barcodescanner": {
         "ANDROID_SUPPORT_V4_VERSION": "27.1.1"
+      },
+      "cordova-android-support-gradle-release": {
+        "ANDROID_SUPPORT_VERSION": "26"
       }
     }
   }
