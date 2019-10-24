@@ -62,7 +62,7 @@
         <icon density="mdpi" src="resources/icon/android/icon-48.png" />
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
         <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
-        <resource-file src="google-services.json" target="google-services.json" />
+
     </platform>
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
