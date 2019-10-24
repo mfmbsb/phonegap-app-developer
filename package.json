@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "cordova-android": "^7.0.0",
+    "cordova-android-support-gradle-release": "^1.4.7",
     "cordova-ios": "^4.5.3",
     "cordova-plugin-battery-status": "^1.2.5",
     "cordova-plugin-ble-central": "^1.2.4",
@@ -122,7 +123,10 @@
       "phonegap-plugin-push": {
         "FCM_VERSION": "11.0.1"
       },
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-android-support-gradle-release": {
+        "ANDROID_SUPPORT_VERSION": "27.+"
+      }
     }
   }
 }
