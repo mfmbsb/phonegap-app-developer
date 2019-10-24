@@ -1,10 +1,10 @@
 {
   "name": "phonegap-app-developer",
   "description": "PhoneGap Developer app.",
-  "homepage": "http://app.phonegap.com",
+  "homepage": "http://www.brcondominio.com.br",
   "repository": {
     "type": "git",
-    "url": "git://github.com/phonegap/phonegap-app-developer.git"
+    "url": "git://github.com/mfmbsb/phonegap-app-developer.git"
   },
   "preferGlobal": false,
   "private": true,
