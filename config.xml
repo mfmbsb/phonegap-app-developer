@@ -114,11 +114,5 @@
     <plugin name="cordova-plugin-file-opener2" spec="^2.2.1">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-<<<<<<< HEAD
-=======
-    <plugin name="cordova-plugin-qrscanner" spec="^3.0.1" >
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
-        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
-    </plugin>
->>>>>>> d43c7d11132e077c0ea1c3b0ffc008926a038d84
+
 </widget>
