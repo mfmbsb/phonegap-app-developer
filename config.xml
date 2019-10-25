@@ -112,8 +112,4 @@
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
     <plugin name="cordova-plugin-mobile-ocr" spec="^3.1.1" />
-<<<<<<< HEAD
-=======
-    <plugin name="cordova-plugin-qrscanner" spec="~2.5.0" />
->>>>>>> 8e4f5c831db9fbf2e5fdcc0df277e2c8dc3f7670
 </widget>
