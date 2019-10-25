@@ -112,4 +112,7 @@
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
     <plugin name="cordova-plugin-mobile-ocr" spec="^3.1.1" />
+    <plugin name="cordova-plugin-camera-preview" spec="^0.11.0">
+        <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
+    </plugin>
 </widget>
