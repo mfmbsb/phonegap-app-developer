@@ -115,9 +115,7 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-vibration": {},
-      "cordova-plugin-x-socialsharing": {
-        "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
-      },
+      "cordova-plugin-x-socialsharing": {},
       "phonegap-plugin-contentsync": {},
       "phonegap-plugin-mobile-accessibility": {},
       "cordova-plugin-whitelist": {},
