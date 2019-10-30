@@ -134,7 +134,6 @@
         "ANDROID_SUPPORT_LIBRARY_VERSION": "26+"
       },
       "cordova-plugin-tesseract": {}
-      
     }
   }
 }
