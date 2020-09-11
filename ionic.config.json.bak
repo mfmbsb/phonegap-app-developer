@@ -1,0 +1,7 @@
+{
+  "name": "appbrcondominio",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}
