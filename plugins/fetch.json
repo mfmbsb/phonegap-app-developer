@@ -97,14 +97,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-cocoapods-cdn": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-cocoapods-cdn"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-document-scanner": {
     "source": {
       "type": "registry",
