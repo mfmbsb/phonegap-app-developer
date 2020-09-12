@@ -1,0 +1,67 @@
+{
+  "_from": "cordova-plugin-ui-sounds",
+  "_id": "cordova-plugin-ui-sounds@1.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-/wiQF4kJik1Cfl+xmD/5Zx52QO5xKXSmJoHVSlte99ozqSYiA0wDVugXyo6E27abw56Aj0H2vsMP3A7/AHPRXQ==",
+  "_location": "/cordova-plugin-ui-sounds",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-ui-sounds",
+    "name": "cordova-plugin-ui-sounds",
+    "escapedName": "cordova-plugin-ui-sounds",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ui-sounds/-/cordova-plugin-ui-sounds-1.2.2.tgz",
+  "_shasum": "bd17f754aa9aa5b40c6f08374cd6acb54f0f5c9c",
+  "_spec": "cordova-plugin-ui-sounds",
+  "_where": "C:\\brmobile\\Phonegap",
+  "author": {
+    "name": "talisman.games"
+  },
+  "bugs": {
+    "url": "https://github.com/talisman-games/cordova-plugin-ui-sounds/issues/"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-ui-sounds",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin for simple audio feedback on mobile devices.",
+  "homepage": "https://github.com/talisman-games/cordova-plugin-ui-sounds#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ui",
+    "system",
+    "sound",
+    "audio",
+    "fx",
+    "simple",
+    "feedback",
+    "mix",
+    "tap",
+    "click"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-ui-sounds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talisman-games/cordova-plugin-ui-sounds.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.2"
+}

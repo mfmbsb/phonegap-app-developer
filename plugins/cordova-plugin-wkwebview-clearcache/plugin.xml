@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-wkwebview-clearcache" version="1.1.0"
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Cordova Cache Clear</name>
+    <keywords>cordova,webview,wkwebview,cache,clear,ios,cordova-ios</keywords>
+    <description>This plugin can selectively clear the WkWebView cache for Cordova 9.0.0+ supporting iOS(>=9.0). Derived from Anrip Wong's CacheClear plugin https://github.com/anrip/cordova-plugin-wkwebview-clearcache . This plugin was rewritten to specifically support WkWebView, whose cache clearing mechanics differ from UIWebView. Android support was not considered, since WkWebView is specific to iOS.</description>
+    <repo>https://github.com/mgatto/cordova-plugin-wkwebview-clearcache.git</repo>
+    <issue>https://github.com/mgatto/cordova-plugin-wkwebview-clearcache/issues</issue>
+    <author email="" href="">Michael Gatto</author>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=9.0.0" />
+    </engines>
+    <platform name="ios">
+        <js-module src="www/WkCacheClear.js" name="WkCacheClear">
+            <clobbers target="WkCacheClear" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="WkCacheClear">
+                <param name="ios-package" value="WkCacheClear" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/WkCacheClear.h" />
+        <source-file src="src/ios/WkCacheClear.m" />
+    </platform>
+</plugin>
