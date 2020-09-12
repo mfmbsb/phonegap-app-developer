@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "cordova-android": "^8.1.0",
     "cordova-plugin-androidx": "^2.0.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
     "cordova-plugin-app-version": "^0.1.9",
@@ -126,6 +127,8 @@
       "cordova-plugin-wkwebview-clearcache": {},
       "cordova-plugin-wkwebview-engine": {}
     },
-    "platforms": []
+    "platforms": [
+      "android"
+    ]
   }
 }
