@@ -73,16 +73,6 @@
       "ANDROID_SUPPORT_V4_VERSION": "27.+"
     }
   },
-  "cordova-android-support-gradle-release": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-android-support-gradle-release@^3.0.1"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_VERSION": "27.+"
-    }
-  },
   "cordova-plugin-androidx-adapter": {
     "source": {
       "type": "registry",
@@ -216,14 +206,6 @@
       "id": "cordova-plugin-wkwebview-engine"
     },
     "is_top_level": true,
-    "variables": {}
-  },
-  "es6-promise-plugin": {
-    "source": {
-      "type": "registry",
-      "id": "es6-promise-plugin@^4.1.0"
-    },
-    "is_top_level": false,
     "variables": {}
   },
   "cordova-plugin-inappbrowser": {
