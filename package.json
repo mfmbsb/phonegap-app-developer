@@ -92,7 +92,6 @@
       "cordova-plugin-fcm-with-dependecy-updated": {},
       "cordova-plugin-wkwebview-inject-cookie": {},
       "cordova-plugin-wkwebviewxhrfix": {},
-      "phonegap-nfc": {},
       "cordova-plugin-androidx": {},
       "cordova-plugin-ble-peripheral": {},
       "cordova-plugin-bluetooth-peripheral-usage-description": {
@@ -119,7 +118,8 @@
       "cordova-plugin-screen-orientation": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-vibration": {},
-      "cordova-plugin-x-socialsharing": {}
+      "cordova-plugin-x-socialsharing": {},
+      "phonegap-nfc": {}
     },
     "platforms": []
   }

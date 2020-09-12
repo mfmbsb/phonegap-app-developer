@@ -25,6 +25,7 @@
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
   </platform>
+  
   <platform name="android">
     <source-file src="src/android/com/phonegap/plugins/barcodescanner/BarcodeScanner.java" target-dir="src/com/phonegap/plugins/barcodescanner"/>
     <config-file target="res/xml/config.xml" parent="/*">

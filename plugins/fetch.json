@@ -152,14 +152,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "phonegap-nfc": {
-    "source": {
-      "type": "registry",
-      "id": "phonegap-nfc"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-androidx": {
     "source": {
       "type": "registry",
@@ -370,6 +362,14 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-x-socialsharing"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-nfc": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-nfc"
     },
     "is_top_level": true,
     "variables": {}
