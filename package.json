@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "cordova-android": "^8.1.0",
     "cordova-plugin-androidx": "^2.0.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
     "cordova-plugin-app-version": "^0.1.9",
@@ -40,6 +41,7 @@
     "cordova-plugin-wkwebview-inject-cookie": "^1.0.6",
     "cordova-plugin-wkwebviewxhrfix": "^0.1.0",
     "cordova-plugin-x-socialsharing": "^6.0.2",
+    "es6-promise-plugin": "^4.2.2",
     "phonegap-nfc": "^1.2.0"
   },
   "devDependencies": {
@@ -120,6 +122,8 @@
       "cordova-plugin-vibration": {},
       "cordova-plugin-x-socialsharing": {}
     },
-    "platforms": []
+    "platforms": [
+      "android"
+    ]
   }
 }
