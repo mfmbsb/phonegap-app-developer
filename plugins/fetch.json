@@ -347,5 +347,17 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cc.fovea.cordova.openwith": {
+    "source": {
+      "type": "registry",
+      "id": "cc.fovea.cordova.openwith"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_MIME_TYPE": "*/*",
+      "IOS_URL_SCHEME": "ccfoveaopenwithbrweb",
+      "IOS_UNIFORM_TYPE_IDENTIFIER": "public.image,public.data"
+    }
   }
 }

@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "cc.fovea.cordova.openwith": "^2.0.0",
     "cordova-plugin-androidx": "^2.0.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
     "cordova-plugin-app-version": "^0.1.9",
@@ -112,7 +113,12 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-vibration": {},
       "cordova-plugin-x-socialsharing": {},
-      "phonegap-nfc": {}
+      "phonegap-nfc": {},
+      "cc.fovea.cordova.openwith": {
+        "ANDROID_MIME_TYPE": "*/*",
+        "IOS_URL_SCHEME": "ccfoveaopenwithbrweb",
+        "IOS_UNIFORM_TYPE_IDENTIFIER": "public.image,public.data"
+      }
     },
     "platforms": []
   }
