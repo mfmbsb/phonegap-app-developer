@@ -63,16 +63,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "phonegap-plugin-barcodescanner": {
-    "source": {
-      "type": "registry",
-      "id": "phonegap-plugin-barcodescanner@^8.1.0"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_V4_VERSION": "27.+"
-    }
-  },
   "cordova-plugin-androidx-adapter": {
     "source": {
       "type": "registry",
@@ -359,5 +349,13 @@
       "IOS_URL_SCHEME": "ccfoveaopenwithbrweb",
       "IOS_UNIFORM_TYPE_IDENTIFIER": "public.content"
     }
+  },
+  "cordova-plugin-qrscanner": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-qrscanner"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
